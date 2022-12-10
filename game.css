@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gameArea {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.flipitems {
+  width: 80px;
+  height: 80px;
+  background-color: antiquewhite;
+  border-radius: 4px;
+}
